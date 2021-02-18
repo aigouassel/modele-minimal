@@ -44,4 +44,3 @@ for n in np.arange(0,M+1):
 U = np.reshape(y0[0,:],(N+1,N+1))
 plt.contourf(X,Y,U, vmin=0,vmax=1)
 plt.show()
-  
