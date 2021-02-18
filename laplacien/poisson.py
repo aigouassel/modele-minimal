@@ -2,7 +2,7 @@
 
 # Modules à utiliser
 import scipy.sparse as sp
-import numpy as np
+import numpy as np 
 
 def matrix_neumann2D(Omega,Nx,Ny):
     """Returns the matrix that discretizes the mapping u --> -Laplacian(u)
