@@ -3,7 +3,6 @@
 import numpy as np
 import modele_bocf as bocf
 import poisson
-import edo
 import matplotlib.pyplot as plt
 
 # Coefficient de diffusion
