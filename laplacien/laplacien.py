@@ -20,5 +20,4 @@ def laplacien(t0,y0,G,h,N):
     u = y[0,:]
     u1 = (u[1] - u[0])/h
     for n in range(np.arange(1,N-1)):
-        
-    
+           

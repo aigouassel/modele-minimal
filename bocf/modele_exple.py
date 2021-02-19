@@ -10,7 +10,7 @@ t0 = 0.
 y0 = np.array([0,1.,1.,0.]) # u,v,w,s
 
 # Solution approchée par la méthode d'Euler
-t,z = edo.euler(t0,y0, bocf.G, 0.01, 20000)
+t,z = edo.euler(t0,y0, bocf.G, 0.1, 2000)
 
 # COURBES
 plt.figure(1)

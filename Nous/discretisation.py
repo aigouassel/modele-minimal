@@ -28,7 +28,8 @@ vx, vy = meshgrid(x,y,indexing='ij')
 
 ##DISCRETISATION DU TEMPS
 
-t0 = 0; tmax = 0.5; ##en secondes = 500 ms
+t0 = 0
+tmax = 0.5 ##en secondes = 500 ms
 Nt = 151 ##nombre de points voulus
 dt = 1/(Nt-1.) ##pas de temps
 time_steps = Nt - 1##nombre d'intervalles obtenus de la discrétisation

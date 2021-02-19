@@ -10,7 +10,7 @@ D = 1.e-3
 
 # discretisation en espace
 Omega = [0,1,0,1]
-N = 10
+N = 100
 P = (N+1)**2
 y1 = np.zeros((4,P)) # u,v,w,s
 y0 = np.zeros((4,P)) # u,v,w,s
@@ -18,7 +18,7 @@ y0 = np.zeros((4,P)) # u,v,w,s
 A = D*poisson.matrix_neumann2D(Omega,N,N) # Matrice de -D*Laplacien(u) avec CL Neumann
 
 # discretisation en temps
-h = 0.1 # pas de temps
+h = 0.01 # pas de temps
 M = 500 # nombre d'itérations en temps
 
 # point de départ
